@@ -33,13 +33,15 @@ pip install -r requirements.txt
 
 4. Spuštění programu
 Program se spouští pomocí 2 argumentů:
-
 odkaz na okres (URL ve formátu ps32?...)
-
 název výstupního CSV souboru
 
 Ukázka spuštění pro okres Česká Lípa:
+Výsledky hlasování pro okres Česká Lípa
 python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5101" vysledky_ceska_lipa.csv
+
+První argument: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5101
+Druhý argument: vysledky_ceska_lipa.csv
 
 Po spuštění se vytvoří soubor vysledky_ceska_lipa.csv ve stejné složce.
 

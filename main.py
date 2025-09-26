@@ -2,7 +2,7 @@
 main.py: třetí projekt do Engeto Online Python Akademie
 
 author: Jan Koppan
-email: jan.koppan@email.cz
+email: jan.koppan@seznam.cz
 popis: Skript stahuje volební výsledky z roku 2017 pro vybraný okres (územní celek)
        a ukládá je do CSV souboru. Výstup obsahuje seznam obcí, počty voličů,
        vydané obálky, platné hlasy a hlasy pro všechny kandidující strany.
@@ -117,3 +117,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
